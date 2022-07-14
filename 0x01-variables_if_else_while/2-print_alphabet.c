@@ -10,8 +10,11 @@
 int main(void)
 {
 	int ch;
-	for(ch=97;ch=127;ch++)
+	for (ch = 97; ch = 127; ch++)
 	{
 		putchar(ch);
-	putchar("\n");
+	}
+	putchar(10); /* this is an ascii code for new line*/
+
+	return (0);
 }
